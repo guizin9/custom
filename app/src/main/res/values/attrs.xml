@@ -9,4 +9,11 @@
 
     </declare-styleable>
 
+    <declare-styleable name="ProfileImage">
+
+        <attr name="src" format="reference"/>
+        <attr name="visualized" format="boolean"/>
+
+    </declare-styleable>
+
 </resources>

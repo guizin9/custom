@@ -4,12 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
    <com.example.custom.components.FollowersIndicator
        android:id="@+id/followers_indicator"
        app:counter="2000"
        app:indicator="seguidores"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
+   <com.example.custom.components.ProfileImage
+       android:id="@+id/profile_img"
+       app:src="@drawable/profileteste"
+       app:visualized="true"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"/>
 

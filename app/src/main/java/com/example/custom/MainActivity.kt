@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         this.binding.followersIndicator.setCounter("500")
         this.binding.followersIndicator.setIndicator("Seguindo")
-        //this.binding.followersIndicator.setBold(false)
+        this.binding.profileImg.setVisualized(true)
+        this.binding.profileImg.setImageProfile(R.drawable.user_profile)
     }
 }
